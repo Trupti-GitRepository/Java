@@ -1,0 +1,65 @@
+<Project>
+  <Name>CMSC_203</Name>
+  <ProjectItem type="NClass.DiagramEditor.ClassDiagram.Diagram" assembly="NClass.DiagramEditor, Version=2.4.1823.0, Culture=neutral, PublicKeyToken=null">
+    <Name>Untitled</Name>
+    <Language>Java</Language>
+    <Entities />
+    <Relationships />
+  </ProjectItem>
+  <ProjectItem type="NClass.DiagramEditor.ClassDiagram.Diagram" assembly="NClass.DiagramEditor, Version=2.4.1823.0, Culture=neutral, PublicKeyToken=null">
+    <Name>Assignment2_BirthdayGifts</Name>
+    <Language>Java</Language>
+    <Entities>
+      <Entity type="Class">
+        <Name>Toy</Name>
+        <Access>Public</Access>
+        <Location left="448" top="58" />
+        <Size width="162" height="400" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">private String toy</Member>
+        <Member type="Field">private double cost</Member>
+        <Member type="Field">private int age</Member>
+        <Member type="Field">private int newField</Member>
+        <Member type="Field">private int newField</Member>
+        <Member type="Field">private int newField</Member>
+        <Member type="Constructor">public Toy()</Member>
+        <Member type="Constructor">public Toy(String t, int a)</Member>
+        <Member type="Method">public void setAge()</Member>
+        <Member type="Method">public void setCost()</Member>
+        <Member type="Method">public String getToy()</Member>
+        <Member type="Method">public int getAge()</Member>
+        <Member type="Method">public double getCost()</Member>
+        <Member type="Method">public boolean ageOK()</Member>
+        <Member type="Method">public void addCard()</Member>
+        <Member type="Method">public void addBalloon()</Member>
+        <Member type="Method">public void addCost()</Member>
+        <Member type="Method">public String toString()</Member>
+        <Member type="Method">public void newMethod()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Birthday</Name>
+        <Access>Public</Access>
+        <Location left="218" top="69" />
+        <Size width="162" height="247" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">private String name</Member>
+        <Member type="Field">private int age</Member>
+        <Member type="Field">private String toyChoice</Member>
+        <Member type="Field">private String card</Member>
+        <Member type="Field">private double cost</Member>
+        <Member type="Field">private String balloon</Member>
+        <Member type="Field">private double totalCost</Member>
+        <Member type="Field">private String reply</Member>
+        <Member type="Method">public void main()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+    </Entities>
+    <Relationships>
+      <Relationship type="Dependency" first="1" second="0">
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+      </Relationship>
+    </Relationships>
+  </ProjectItem>
+</Project>
