@@ -4,6 +4,7 @@ import java.io.IOException;
 import javafx.application.Application;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
+import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
 
 
@@ -23,9 +24,10 @@ public class FXDriver extends Application {
 		//student Task #1:
 		//  instantiate the FXMainPane, name it root
 		FXMainPane root=new FXMainPane();
+		root.getChildren().addAll(root.hbox1, root.hbox2);
 		
 		//  set the scene to hold root
-		stage.setScene(new Scene(root,500,300));  
+		stage.setScene(new Scene(root,700,200));  
 		//set stage title
 		stage.setTitle("Hello World GUI");
 		//display the stage

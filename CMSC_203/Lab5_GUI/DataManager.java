@@ -28,5 +28,8 @@ public class DataManager {
 		return "Ni hau";
 	}
 
+	public String getHindi() {
+		return "Namste";
+	}
 
 }
