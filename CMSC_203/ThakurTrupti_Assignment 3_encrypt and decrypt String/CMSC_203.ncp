@@ -1,0 +1,262 @@
+<Project>
+  <Name>CMSC_203</Name>
+  <ProjectItem type="NClass.DiagramEditor.ClassDiagram.Diagram" assembly="NClass.DiagramEditor, Version=2.4.1823.0, Culture=neutral, PublicKeyToken=null">
+    <Name>Untitled</Name>
+    <Language>Java</Language>
+    <Entities />
+    <Relationships />
+  </ProjectItem>
+  <ProjectItem type="NClass.DiagramEditor.ClassDiagram.Diagram" assembly="NClass.DiagramEditor, Version=2.4.1823.0, Culture=neutral, PublicKeyToken=null">
+    <Name>Assignment2_BirthdayGifts</Name>
+    <Language>Java</Language>
+    <Entities>
+      <Entity type="Class">
+        <Name>Toy</Name>
+        <Access>Public</Access>
+        <Location left="448" top="58" />
+        <Size width="162" height="400" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">private String toy</Member>
+        <Member type="Field">private double cost</Member>
+        <Member type="Field">private int age</Member>
+        <Member type="Field">private int newField</Member>
+        <Member type="Field">private int newField</Member>
+        <Member type="Field">private int newField</Member>
+        <Member type="Constructor">public Toy()</Member>
+        <Member type="Constructor">public Toy(String t, int a)</Member>
+        <Member type="Method">public void setAge()</Member>
+        <Member type="Method">public void setCost()</Member>
+        <Member type="Method">public String getToy()</Member>
+        <Member type="Method">public int getAge()</Member>
+        <Member type="Method">public double getCost()</Member>
+        <Member type="Method">public boolean ageOK()</Member>
+        <Member type="Method">public void addCard()</Member>
+        <Member type="Method">public void addBalloon()</Member>
+        <Member type="Method">public void addCost()</Member>
+        <Member type="Method">public String toString()</Member>
+        <Member type="Method">public void newMethod()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Birthday</Name>
+        <Access>Public</Access>
+        <Location left="218" top="69" />
+        <Size width="162" height="247" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">private String name</Member>
+        <Member type="Field">private int age</Member>
+        <Member type="Field">private String toyChoice</Member>
+        <Member type="Field">private String card</Member>
+        <Member type="Field">private double cost</Member>
+        <Member type="Field">private String balloon</Member>
+        <Member type="Field">private double totalCost</Member>
+        <Member type="Field">private String reply</Member>
+        <Member type="Method">public void main()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+    </Entities>
+    <Relationships>
+      <Relationship type="Dependency" first="1" second="0">
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+      </Relationship>
+    </Relationships>
+  </ProjectItem>
+  <ProjectItem type="NClass.DiagramEditor.ClassDiagram.Diagram" assembly="NClass.DiagramEditor, Version=2.4.1823.0, Culture=neutral, PublicKeyToken=null">
+    <Name>Assignment3_</Name>
+    <Language>Java</Language>
+    <Entities>
+      <Entity type="Class">
+        <Name>CryptoManager</Name>
+        <Access>Public</Access>
+        <Location left="200" top="59" />
+        <Size width="291" height="264" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">private Char UPPER_BOUND</Member>
+        <Member type="Field">private char SPACE</Member>
+        <Member type="Field">private Char LOWER_BOUND</Member>
+        <Member type="Field">private int RANGE</Member>
+        <Member type="Method">public boolean stringInBounds(String plainText)</Member>
+        <Member type="Method">public static String encryptCaesar(String plainText, int key)</Member>
+        <Member type="Method">public static String encryptBellaso(String plainText, String bellasoStr)</Member>
+        <Member type="Method">public static String decryptCaesar(String encryptedText, int key)</Member>
+        <Member type="Method">public static String decryptBellaso(String encryptedText, String bellasoStr)</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>FXDriver</Name>
+        <Access>Public</Access>
+        <Location left="733" top="147" />
+        <Size width="193" height="190" />
+        <Collapsed>False</Collapsed>
+        <Member type="Method">public static void main()</Member>
+        <Member type="Method">public void start()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>FXMainPane</Name>
+        <Access>Public</Access>
+        <Location left="475" top="382" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">private button decryption</Member>
+        <Member type="Field">private TextField plainTextTextField</Member>
+        <Member type="Field">private RadioButton radioButton1</Member>
+        <Member type="Field">privateRadioButton radioButton2</Member>
+        <Member type="Field">private Label plainTextLabel</Member>
+        <Member type="Constructor">public FXMainPane()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+    </Entities>
+    <Relationships>
+      <Relationship type="Dependency" first="1" second="0">
+        <Label>
+        </Label>
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+      </Relationship>
+      <Relationship type="Dependency" first="1" second="2">
+        <Label>
+        </Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <BendPoint relativeToStartShape="False">
+          <X>685</X>
+          <Y>443</Y>
+        </BendPoint>
+      </Relationship>
+    </Relationships>
+  </ProjectItem>
+  <ProjectItem type="NClass.DiagramEditor.ClassDiagram.Diagram" assembly="NClass.DiagramEditor, Version=2.4.1823.0, Culture=neutral, PublicKeyToken=null">
+    <Name>Assignment 4_property Management</Name>
+    <Language>Java</Language>
+    <Entities>
+      <Entity type="Class">
+        <Name>Property</Name>
+        <Access>Public</Access>
+        <Location left="873" top="215" />
+        <Size width="198" height="268" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">private String propertyName</Member>
+        <Member type="Field">private String city</Member>
+        <Member type="Field">private double rentAmount</Member>
+        <Member type="Field">private plot plot</Member>
+        <Member type="Field">private String owner</Member>
+        <Member type="Field">private int newField</Member>
+        <Member type="Constructor">public Property(String propertyName, String city, double rentAmount, String owner, int x, int y, int width, int depth)</Member>
+        <Member type="Constructor">public Property(String propertyName, String city, double rentAmount, String owner)</Member>
+        <Member type="Constructor">public Property()</Member>
+        <Member type="Constructor">public Property(property p)</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Plot</Name>
+        <Access>Public</Access>
+        <Location left="344" top="404" />
+        <Size width="162" height="383" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">private int x</Member>
+        <Member type="Field">private int y</Member>
+        <Member type="Field">private int width</Member>
+        <Member type="Field">private int depth</Member>
+        <Member type="Constructor">public Plot()</Member>
+        <Member type="Constructor">public Plot(int x, int y, int width, int depth)</Member>
+        <Member type="Constructor">public Plot(plot p)</Member>
+        <Member type="Method">public void setX(int x)</Member>
+        <Member type="Method">public void setY(int y)</Member>
+        <Member type="Method">public void setWidth(int width)</Member>
+        <Member type="Method">public int getX()</Member>
+        <Member type="Method">public int getY()</Member>
+        <Member type="Method">public int getWidth()</Member>
+        <Member type="Method">public int getDepth()</Member>
+        <Member type="Method">public boolean overlaps(plot plot)</Member>
+        <Member type="Method">public boolean encompasses(plot plot)</Member>
+        <Member type="Method">public String toString()</Member>
+        <Member type="Method">public void setDepth(int depth)</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>PropertyMgmDriverNoGui</Name>
+        <Access>Public</Access>
+        <Location left="618" top="404" />
+        <Size width="178" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">private Property property</Member>
+        <Member type="Field">private MgmCompany m</Member>
+        <Member type="Method">public void main()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>MgmCompanyGui</Name>
+        <Access>Public</Access>
+        <Location left="438" top="47" />
+        <Size width="220" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">private int NUM_PIX</Member>
+        <Member type="Field">private int SCALE_FACTOR</Member>
+        <Member type="Field">private int newField</Member>
+        <Member type="Method">private boolean propertyFieldsEmpty()</Member>
+        <Member type="Method">private boolean propertyPlotFieldsEmpty()</Member>
+        <Member type="Method">private boolean mgmFieldsEmpty()</Member>
+        <Member type="Method">private void createNewMgm()</Member>
+        <Member type="Method">public void newMethod()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>ManagementCompany</Name>
+        <Access>Public</Access>
+        <Location left="52" top="21" />
+        <Size width="241" height="400" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">private String name</Member>
+        <Member type="Field">private String taxID</Member>
+        <Member type="Field">private int MGMT_WIDTH</Member>
+        <Member type="Field">private int MGMT_DEPTH</Member>
+        <Member type="Field">private plot plot</Member>
+        <Member type="Field">private int newField</Member>
+        <Member type="Constructor">public ManagementCompany()</Member>
+        <Member type="Constructor">public ManagementCompany(String name, String taxID, double mgmFee)</Member>
+        <Member type="Constructor">public ManagementCompany(String name, String taxID, double mgmFee, int x, int y, int width, int depth)</Member>
+        <Member type="Constructor">public ManagementCompany(ManagementCompany otherCompany)</Member>
+        <Member type="Method">public int addProperty(Property property)</Member>
+        <Member type="Method">public int addProperty(String name, String city, double rent, String owner)</Member>
+        <Member type="Method">public int addProperty(String name, String city, double rent, String owner, int x, int y, int width, int depth)</Member>
+        <Member type="Method">public String displayPropertyAtIndex(int i)</Member>
+        <Member type="Method">public int getMAX_PROPERTY()</Member>
+        <Member type="Method">public double maxRentProp()</Member>
+        <Member type="Method">public int maxRentProp()</Member>
+        <Member type="Method">public String toString()</Member>
+        <Member type="Method">public double totalRent()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+    </Entities>
+    <Relationships>
+      <Relationship type="Dependency" first="2" second="0">
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+      </Relationship>
+      <Relationship type="Dependency" first="2" second="3">
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+      </Relationship>
+      <Relationship type="Association" first="1" second="4">
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <AssociationType>Aggregation</AssociationType>
+      </Relationship>
+      <Relationship type="Association" first="1" second="4">
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <AssociationType>Aggregation</AssociationType>
+      </Relationship>
+      <Relationship type="Association" first="1" second="4">
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <AssociationType>Aggregation</AssociationType>
+      </Relationship>
+    </Relationships>
+  </ProjectItem>
+</Project>
